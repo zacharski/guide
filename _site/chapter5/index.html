@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chapter 5</title>
+    <meta name="description" content="A free book on data mining and machien learning
+">
+
+    <link rel="stylesheet" href="/christmas/css/main.css">
+    <link rel="canonical" href="/christmas//chapter5/">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+
+  <body>
+
+    <!--- Header and nav template site-wide -->
+<header>
+    <h1 class="big"><a href="/christmas/">A Programmer's Guide to Data Mining</a></h1>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Chapter 5</h1>
+  </header>
+
+  <article class="post-content">
+  <p><span class="marginnote">Chapters<br />
+  <a href="/christmas/chapter1">1: Introduction</a></br />
+  <a href="/christmas/chapter2">2: Recommendation systems</a></br />
+ <a href="/christmas/chapter3">3: Item-based filtering</a></br />
+<a href="/christmas/chapter4">4: Classification</a></br />
+<a href="/christmas/chapter5">5: More on classification</a></br />
+<a href="/christmas/chapter6">6: Naïve Bayes</a></br />
+<a href="/christmas/chapter7">7: Unstructured text</a></br />
+<a href="/christmas/chapter8">8: Clustering</a></br />
+<a href="https://docs.google.com/spreadsheets/d/1pklU_T3lo1089hSKv_LhRI5QWWYBk5oOh4mASlmIDVI/edit#gid=0">Attributions</a>
+  </p></span>
+    <h2 id="further-explorations-in-classification">Further Explorations in Classification</h2>
+
+<p>This chapter examines several other algorithms for classification including kNN and naïve Bayes. We look at the power of adding more data.</p>
+
+<h3 id="contents">Contents</h3>
+
+<ul>
+  <li>Evaluating classifiers: training sets and test data</li>
+  <li>10-fold cross validation</li>
+  <li>Which is better: adding more data or improving the algorithm?</li>
+  <li>the kNN algorithm</li>
+  <li>Python implementation of kNN</li>
+</ul>
+
+<h3 id="the-pdf-of-the-chapterchristmasassetsguidechaptersdatamining-ch5pdf"><a href="/christmas//assets/guideChapters/DataMining-ch5.pdf">The PDF of the Chapter</a></h3>
+
+<h3 id="python-code">Python code</h3>
+
+<p>Page 13: divide data into buckets: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch5/divide.py">divide.py</a></p>
+
+<p>Page 14: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/nearestNeighborClassifier.py">nearestNeighborClassifier.py</a> from last chapter (please modify to implement 10-fold cross validation).</p>
+
+<p>Page 15: one solution to implementing 10-fold cross validation: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch5/crossValidation.py">crossValidation.py</a></p>
+
+<p>Page 36: one solution to implementing kNN: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch5/pimaKNN.py">pimaKNN.py</a>.</p>
+
+<h3 id="data">Data</h3>
+
+<h5 id="page-13-auto-mpg-data-set--quinlin-1993">Page 13. Auto MPG Data Set.  (Quinlin 1993)</h5>
+
+<ul>
+  <li>Version divided into buckets in the format the book uses: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch6/mpgData.zip">mpgData.zip</a></li>
+  <li><a href="http://archive.ics.uci.edu/ml/datasets/Auto+MPG">Original Version</a> from the Machine Learning Repository.</li>
+</ul>
+
+<h5 id="page-34-pima-indians-diabetes-data-set-national-institute-of-diabetes-and-digestive-and-kidney-diseases">Page 34. Pima Indians Diabetes Data Set (National Institute of Diabetes and Digestive and Kidney Diseases)</h5>
+<ul>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch6/pimaSmall.zip">pimaSmall.zip</a> (containing 100 instances divided into 10 buckets)</li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch6/pima.zip">pima.zip</a> (full data set divided into 10 buckets)</li>
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+  <ul class="footer-links group">
+    <li><a href="mailto:ron.zacharski@gmail.com"><span class="icon-mail"></span></a></li>
+    
+      <li>
+        <a href="http://github.com/zacharski/pg2dm-python"><span class="icon-github"></span></a>
+      </li>
+    
+  </ul>
+<div class="credits">
+<span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC By-NC</a> RON ZACHARSKI &nbsp; 2015</span>
+<br>
+<span>This site was created with <a href="//jekyllrb.com">Jekyll</a>  and <a href="//github.com/cpsievert/knitr-jekyll">cpsievert/knitr-jekyll</a> </span>
+</div>
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chapter 4</title>
+    <meta name="description" content="A free book on data mining and machien learning
+">
+
+    <link rel="stylesheet" href="/christmas/css/main.css">
+    <link rel="canonical" href="/christmas//chapter4/">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+
+  <body>
+
+    <!--- Header and nav template site-wide -->
+<header>
+    <h1 class="big"><a href="/christmas/">A Programmer's Guide to Data Mining</a></h1>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Chapter 4</h1>
+  </header>
+
+  <article class="post-content">
+  <p><span class="marginnote">Chapters<br />
+  <a href="/christmas/chapter1">1: Introduction</a></br />
+  <a href="/christmas/chapter2">2: Recommendation systems</a></br />
+ <a href="/christmas/chapter3">3: Item-based filtering</a></br />
+<a href="/christmas/chapter4">4: Classification</a></br />
+<a href="/christmas/chapter5">5: More on classification</a></br />
+<a href="/christmas/chapter6">6: Naïve Bayes</a></br />
+<a href="/christmas/chapter7">7: Unstructured text</a></br />
+<a href="/christmas/chapter8">8: Clustering</a></br />
+<a href="https://docs.google.com/spreadsheets/d/1pklU_T3lo1089hSKv_LhRI5QWWYBk5oOh4mASlmIDVI/edit#gid=0">Attributions</a>
+  </p></span>
+    <h2 id="classification">Classification</h2>
+<p>In the previous chapters we used people’s ratings of products to make recommendations. In this chapter we use attributes of the products themselves to make recommendations. This approach is used by Pandora among others.</p>
+
+<h3 id="contents">Contents</h3>
+
+<ul>
+  <li>Introduction to Pandora-like systems</li>
+  <li>The importance of selecting appropriate attributes and values</li>
+  <li>An example: music attributes and a nearest neighbor approach</li>
+  <li>Data normalization</li>
+  <li>Modified Standard Score</li>
+  <li>Python code: music, attributes, and a simple nearest neighbor approach</li>
+  <li>A sports example.</li>
+  <li>Ways of acquiring attribute data</li>
+</ul>
+
+<h3 id="the-pdf-of-the-chapterchristmasassetsguidechaptersdatamining-ch4pdf"><a href="/christmas//assets/guideChapters/DataMining-ch4.pdf">The PDF of the Chapter</a></h3>
+
+<h3 id="python-code">Python code</h3>
+
+<p>The code for the example on page 4-13:  <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/filteringdata.py">ch4-filteringdata.py</a>.</p>
+
+<p>page 46: the template to use for you to write the getMedian and getAbsoluteDeviation methods: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/testMedianAndASD.py">testMedianAndASD.py</a>. You will also need athletesTrainingSet.txt.</p>
+
+<p>p48: the template to use for you to write the normalizeColumn method: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/normalizeColumnTemplate.py">normalizeColumnTemplate.py</a>. You will also need athletesTrainingSet.txt.</p>
+
+<p>p52: the template for the nearestNeighbor method: <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/classifyTemplate.py">classifyTemplate.py</a>. You will also need athletesTrainingSet.txt.</p>
+
+<p>p53: code for the complete nearest neighbor classifier – <a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/ch4/nearestNeighborClassifier.py">nearestNeighborClassifier.py</a></p>
+
+<h3 id="data">Data</h3>
+
+<ul>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/athletesTrainingSet.txt">athletesTrainingSet.txt</a></li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/athletesTestSet.txt">athletesTestSet.txt</a></li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/irisTrainingSet.data">irisTrainingSet.data</a></li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/irisTestSet.data">irisTestSet.data</a></li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/mpgTrainingSet.txt">mpgTrainingSet.txt</a></li>
+  <li><a href="https://raw.githubusercontent.com/zacharski/pg2dm-python/master/data/ch4/mpgTestSet.txt">mpgTestSet.txt</a></li>
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+  <ul class="footer-links group">
+    <li><a href="mailto:ron.zacharski@gmail.com"><span class="icon-mail"></span></a></li>
+    
+      <li>
+        <a href="http://github.com/zacharski/pg2dm-python"><span class="icon-github"></span></a>
+      </li>
+    
+  </ul>
+<div class="credits">
+<span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC By-NC</a> RON ZACHARSKI &nbsp; 2015</span>
+<br>
+<span>This site was created with <a href="//jekyllrb.com">Jekyll</a>  and <a href="//github.com/cpsievert/knitr-jekyll">cpsievert/knitr-jekyll</a> </span>
+</div>
+</footer>
+
+
+  </body>
+
+</html>
