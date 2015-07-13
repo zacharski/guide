@@ -16,7 +16,7 @@ This chapter examines several other algorithms for classification including kNN 
 * the kNN algorithm
 * Python implementation of kNN
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch5.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch5.pdf)
 
 ### Python code
 

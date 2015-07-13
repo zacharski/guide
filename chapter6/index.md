@@ -19,7 +19,7 @@ This chapter introduces the Naïve Bayes Classifier.
 * Probability density function: the Python implementation
 * How a recommendation system works.
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch6.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch6.pdf)
 
 ### Python code
 

@@ -20,7 +20,7 @@ This chapter looks at two different methods of clustering: hierarchical clusteri
 * kmeans++
 * Clustering Enron Email
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch8.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch8.pdf)
 
 ### Python code
 

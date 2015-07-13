@@ -17,7 +17,7 @@ title: Chapter 2
 * Implementing k-nearest neighbors in Python
 * The Book Crossing dataset
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch2.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch2.pdf)
 
 ### Python code
 

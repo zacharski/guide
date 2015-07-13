@@ -16,6 +16,6 @@ Introduction to data mining. What it is. How it is used.  What you will be able 
 * Why does data mining matter? — What is in it for me?
 * What’s with the Ancient Art of the Numerati in the title?
 
-### [The PDF of the Chapter](/assets/guideChapters/DataMining-ch1.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch1.pdf)
 
 

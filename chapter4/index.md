@@ -17,7 +17,7 @@ In the previous chapters we used people’s ratings of products to make recommen
 * A sports example.
 * Ways of acquiring attribute data
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch4.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch4.pdf)
 
 ### Python code
 

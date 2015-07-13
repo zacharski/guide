@@ -18,7 +18,7 @@ This chapter starts with a discussion of the types of user ratings we can use. U
 * Python code for Slope One
 * MovieLens data
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch3.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch3.pdf)
 
 ### Python code
 

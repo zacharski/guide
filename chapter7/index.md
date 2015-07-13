@@ -16,7 +16,7 @@ This chapter explores how we can use Naïve Bayes to classify unstructured text.
 * Python code for Naïve Bayes
 * Sentiment Analaysis
 
-### [The PDF of the Chapter]({{site.baseurl}}/assets/guideChapters/DataMining-ch7.pdf)
+### [The PDF of the Chapter]({{site.baseurl}}assets/guideChapters/DataMining-ch7.pdf)
 
 ### Python code
 
